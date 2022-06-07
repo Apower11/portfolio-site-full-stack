@@ -1,0 +1,726 @@
+body {
+    overflow-x: hidden;
+}
+
+.placeholder {
+    height: 15vh;
+    width: 100vw;
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    height: 15vh;
+    width: 100%;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo {
+    margin-right: 4vw;
+    margin-left: 2vw;
+    max-width: 17.1303074670571vw;
+}
+
+.nav-item {
+    margin-right: 4vw;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color 0.4s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #7a7a7a;
+}
+
+.site-button {
+    background-color: #52AB98;
+    border: none;
+    height: 57px;
+    width: 169px;
+    border-radius: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.landing-page {
+    display: flex;
+    align-items: center;
+    background-color: #2B6777;
+}
+
+.landing-page-description {
+    width: 60%;
+    color: white;
+    padding: 2vw;
+    background-color: #2B6777;
+    padding-bottom: 20vh;
+}
+
+.landing-page-description h3 {
+    font-size: 3.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 0;
+    margin-top: 15vh;
+}
+
+.landing-page-description p {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7vh;
+}
+
+.read-more-button {
+    margin-top: 7vh;
+    background-color: #C8D8E4;
+    border: none;
+    width: 253px;
+    height: 60px;
+    font-size: 1.875rem;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+.read-more-button a {
+    text-decoration: none;
+    color: #2B6777;
+
+}
+
+.landing-page-image img {
+    max-width: 30vw;
+}
+
+.about-me-section {
+    background-color: #C8D8E4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.about-me-picture {
+    margin-left: 6vw;
+    width: 34vw;
+}
+
+.about-me-picture img {
+    max-width: 27.525622254758417vw;
+    box-shadow: 13px 13px 4px rgba(0,0,0,0.25);
+    margin-top: 12vh;
+}
+
+.about-me-section figcaption {
+    margin-top: 5vh;
+    text-align: center;
+    width: 27.525622254758417vw;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me-description {
+    width: 50%;
+    margin-top: 12vh;
+    margin-right: 5vw;
+}
+
+.about-me-description h3 {
+    font-size: 3.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me-description-text {
+    margin-top: 5.5vh;
+
+}
+
+.about-me-description hr {
+    color: black;
+    width: 50%;
+    
+}
+
+.about-me-description b {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me-description p {
+    font-size: 1.3rem;
+    margin-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-me-description h3 {
+    border-bottom: 1px solid black;
+    width: 41%;
+    padding-bottom: 4vh;
+}
+
+.social-media-icons {
+    font-size: 2.5rem;
+    margin-top: 4vh;
+}
+
+.social-media-icons a {
+    color: black;
+}
+
+.social-media-icons a:hover {
+    color: darkgray;
+}
+
+.skills-and-achievements {
+    background-color: #2B6777;
+    padding-bottom: 10vh;
+}
+
+.skills-and-achievements-content {
+    display: flex;
+}
+
+.section-heading {
+    width: 100vw;
+    color: white;
+    text-align: center;
+    font-size: 4.375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5vh;
+}
+
+.skills {
+    background-color: #52AB98;
+    margin-left: 3vw;
+    margin-top: 8vh;
+    box-shadow: -19px 25px 4px rgba(0,0,0,0.25);
+    padding: 3vw;
+}
+
+.skills img {
+    max-width: 84px;
+}
+
+.skills ul {
+    list-style-type: none;
+    display: block;
+}
+
+.skills-lists {
+    display: flex;
+}
+
+.skills-list-2 {
+    margin-left: 2vw;
+}
+
+.skill {
+    display: flex;
+    height: 100px;
+}
+
+.skill p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.188rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skills-and-achievements h3 {
+    font-size: 3.75rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.certificates {
+    width: 39%;
+    background-color: #52AB98;
+    margin-left: 3vw;
+    margin-top: 8vh;
+    box-shadow: -19px 25px 4px rgba(0,0,0,0.25);
+    padding: 3vw;
+}
+
+.certificates-list {
+    list-style-type: none;
+    margin-top: 2vh;
+}
+
+.certificate {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 3vh;
+}
+
+.certificate-details {
+    display: flex;
+}
+
+.certificate p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.188rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.certificates-list img {
+    max-width: 120px;
+}
+
+.certificate-button {
+    background-color: #2B6777;
+    color: white;
+    border-radius: 70px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5vw;
+    width: 50%;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.experience {
+    background-color: #C8D8E4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.experience h1 {
+    color: black;
+}
+
+.experiences {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 0;
+}
+
+.individual-experience {
+    width: 40vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.individual-experience:first-of-type {
+    border-right: 1px solid black;
+    padding-right: 3vw;
+}
+
+.individual-experience:nth-of-type(2) {
+    padding-left: 3vw;
+}
+
+.individual-experience h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+
+.individual-experience p {
+    margin-top: 5vh;
+    font-size: 1.625rem;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.individual-experience img {
+    max-width: 84px;
+    height: 84px;
+    margin-left: 2vw;
+}
+
+.experience-heading {
+    display: flex;
+    font-size: 2.188rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education {
+    background-color: #2B6777;
+    
+}
+
+.education-places {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5vh 0;
+}
+
+.education-place {
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.education-place img {
+    max-width: 84px;
+}
+
+.education-place-heading {
+    display: flex;
+    font-size: 2.188rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education-place h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.education-place p {
+    margin-top: 5vh;
+    font-size: 1.625rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education-place:nth-of-type(2) {
+    padding-left: 3vw;
+}
+
+.education-place:first-of-type {
+    border-right: 1px solid black;
+    padding-right: 3vw;
+}
+
+.portfolio {
+    background-color: #C8D8E4;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio h1 {
+    color: black;
+}
+
+.site-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 6vh;
+}
+
+.portfolio-site {
+    width: 40%;
+}
+
+.portfolio-site img {
+    max-width: 100%;
+}
+
+.portfolio-site h5 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4vh;
+}
+
+.portfolio-site p {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vh;
+    margin-bottom: 7vh;
+}
+
+.portfolio-site a {
+    text-decoration: none;
+    color: white;
+    background-color: #52AB98;
+    font-size: 2.188rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 70px;
+    padding: 3vh 5vw;
+}
+
+.blog {
+    background-color: #2B6777;
+    padding-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-posts-archive {
+    width: 29%;
+    align-self: flex-start;
+    margin-top: 5vh;
+}
+
+.archive-section-heading {
+    font-size: 4.375rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5vh;
+}
+
+.archive-selection-heading {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: 3vh;
+}
+
+.month-selection {
+    list-style-type: none;
+    margin-top: 2vh;
+}
+
+.month-choice {
+    margin-top: 2vh;
+}
+
+.month-choice a {
+    text-decoration: none;
+    color: #C8D8E4;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.month-choice a:hover {
+    text-decoration: underline;
+}
+
+.add-blog-post-button {
+    background-color: #2B6777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-blog-post-button button {
+    margin-top: 4vh;
+}
+
+.add-blog-form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    width: 60%;
+    background-color: #52AB98;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.add-blog-form h3 {
+    font-size: 3.125rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.add-blog-form input {
+    width: 80%;
+    height: 4vh;
+    margin-top: 4vh;
+    font-size: 2.188rem;
+    padding: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-blog-form textarea {
+    margin-top: 5vh;
+    width: 80%;
+    font-size: 1.7rem;
+    padding: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-form-buttons {
+    margin-top: 8vh;
+    width: 83%;
+    display: flex;
+    gap: 5%;
+}
+
+.blog-form-buttons button {
+    width: 40%;
+    height: 94px;
+    cursor: pointer;
+    border: none;
+    background-color: #067D97;
+    color: white;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width: 800px) {
+    .site-row {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio-site {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-top: 5vh;
+    }
+}
+
+@media(max-width: 900px) {
+    .education-places {
+        flex-flow: column;
+    }
+
+    .education-place {
+        width: 80%;
+        padding: 0;
+    }
+
+    .education-place:first-of-type {
+        border: 0;
+        padding: 0;
+        padding-bottom: 4vh;
+        border-bottom: 1px solid black;
+    }
+
+    .education-place:nth-of-type(2) {
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 5vh;
+    }
+
+    .experiences {
+        flex-flow: column;
+    }
+
+    .individual-experience {
+        width: 80%;
+        padding: 0;
+    }
+
+    .individual-experience p {
+        height: auto;
+    }
+
+    .individual-experience:first-of-type {
+        border: 0;
+        padding: 0;
+        padding-bottom: 4vh;
+        border-bottom: 1px solid black;
+    }
+
+    .individual-experience:nth-of-type(2) {
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 5vh;
+    }
+}
+
+@media(max-width: 1140px) {
+    .skills-and-achievements-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    .skills {
+        width: 80%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .certificates {
+        width: 80%;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 700px) {
+    .skills-lists {
+        display: flex;
+        flex-flow: column;
+    }
+    .skills-list-2 {
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 1100px){
+    .placeholder {
+        height: 40vh;
+    }
+    .navbar {
+        display: flex;
+        flex-flow: column;
+        width: 100vw;
+    }
+    
+    .header .navbar {
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        flex-basis: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .site-button {
+        margin-top: 3vh;
+    }
+
+    .nav-logo {
+        max-width: 30vw;
+    }
+}
